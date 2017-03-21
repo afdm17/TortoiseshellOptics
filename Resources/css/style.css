@@ -68,3 +68,35 @@ h1 {
   top: 10rem;
   margin-right: -2rem;
 }
+
+/* Services */
+
+.services {
+  display: flex;
+  justify-content: center;
+}
+
+.service {
+  display: flex;
+  text-align: center;
+  height: 8rem;
+  width: 5rem;
+  justify-content: space-between;
+  align-items: center;
+  margin: 3rem;
+  flex-direction: column;
+}
+
+.services img {
+  padding: 0 3rem;
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+#exam {
+  width: 3.5rem;
+}
+
+#product {
+  line-height: 1.5rem;
+}
