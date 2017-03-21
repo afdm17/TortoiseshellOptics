@@ -100,3 +100,29 @@ h1 {
 #product {
   line-height: 1.5rem;
 }
+
+/* About */
+
+.about {
+  justify-content: center;
+  display: flex;
+}
+
+.headline {
+  width: 35%;
+  margin-right: 5%;
+  margin-bottom: 4rem;
+}
+
+.title {
+  background-color: cadetblue;
+  color: white;
+  font-weight: bold;
+  font-size: 1rem;
+  padding:  .5rem 1.25rem;
+  width: 10rem;
+}
+
+.headline p {
+  padding: 1rem 0px;
+}
