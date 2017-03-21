@@ -50,6 +50,10 @@ nav ul li {
   padding: 0px 2rem 0px 0px;
 }
 
+.mobile-menu {
+  display: none;
+}
+
 /* Banner */
 header .slogan {
   justify-content: flex-end;
@@ -149,6 +153,7 @@ h1 {
 }
 
 /* Media */
+/* Tablet */
 
 @media only screen and (max-width: 1024px) {
   /* Header */
@@ -165,5 +170,107 @@ h1 {
     padding: 2rem 4rem;
     top: 5rem;
     font-size: 1.33rem;
+  }
+}
+
+/* Mobile */
+
+@media only screen and (max-width: 540px) {
+  /* Header */
+  .company {
+    display: none;
+  }
+
+  header {
+    background-position: 20%;
+    height: 17rem;
+  }
+
+  .menu {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: inline;
+    padding: 0px 2rem 0px 0px;
+    color: white;
+  }
+
+  /* Banner */
+
+  header .slogan {
+    justify-content: center;
+  }
+
+  .banner {
+    width: 100%;
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0px;
+    margin: none;
+    top: 9rem;
+  }
+
+  /* Services */
+
+  .services {
+    flex-direction: column;
+    margin: 3.77rem 0px;
+    align-items: center;
+  }
+
+  .service {
+    margin-bottom: 0px;
+    font-size: .77rem;
+    text-align: center;
+  }
+
+  .service img {
+    margin-top: 1.54rem;
+  }
+
+  #delivery {
+    margin-top: 1.54rem;
+  }
+
+  #delivery #product {
+    margin-bottom: 3.77rem;
+  }
+
+  /* About */
+
+  .about {
+    display: block;
+  }
+
+  .headline {
+    width: 100%;
+  }
+
+  .title {
+    text-align: center;
+    width: 100%;
+  }
+  .headline p {
+    padding: 1rem .5rem 4rem 0.5rem;
+    font-size: .77rem;
+    line-height: 150%;
+  }
+
+  /* Footer */
+  footer span {
+    display: none;
+  }
+
+  .bottom {
+    justify-content: center;
+    padding: 4rem 0;
+  }
+
+  .copyright img {
+    padding: none;
   }
 }
