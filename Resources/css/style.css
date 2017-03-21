@@ -126,3 +126,24 @@ h1 {
 .headline p {
   padding: 1rem 0px;
 }
+
+/* Footer */
+
+.bottom {
+  background-color: azure;
+  width: 100%;
+  padding: 4rem 3rem;
+  justify-content: flex-start;
+  display: flex;
+}
+
+.copyright {
+  justify-content: center;
+  display: flex;
+}
+
+.copyright img {
+  width: auto;
+  height: 1.5rem;
+  padding-right: 1rem;
+}
